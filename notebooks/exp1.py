@@ -10,7 +10,7 @@ import dagshub
 
 # Initialize DagsHub and set up MLflow experiment tracking
 dagshub.init(repo_owner='bhattpriyang', repo_name='mlops_project', mlflow=True)
-mlflow.set_experiment("Experiment1")  # Name of the experiment in MLflow
+mlflow.set_experiment("Experiment 1")  # Name of the experiment in MLflow
 mlflow.set_tracking_uri("https://dagshub.com/bhattpriyang/mlops_project.mlflow")  # URL to track the experiment
 
 # Load the dataset from a CSV file

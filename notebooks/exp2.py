@@ -19,8 +19,8 @@ from sklearn.model_selection import train_test_split
 
 # Initialize DagsHub integration and set the experiment for MLflow tracking
 dagshub.init(repo_owner='bhattpriyang', repo_name='mlops_project', mlflow=True)
-mlflow.set_experiment("Experiment2")  # Name of the experiment in MLflow
-mlflow.set_tracking_uri("https://dagshub.com/bhattpriyang/mlops_project.mlflow")  # Registry URI for model management
+mlflow.set_experiment("Experiment 2")  # Set the experiment name
+mlflow.set_tracking_uri("https://dagshub.com/bhattpriyang/mlops_project.mlflow")   # Registry URI for model management
 
 # Load the dataset from CSV file and split into training and testing sets
 data = pd.read_csv("D:/exp_track_mlflow1/data/water_potability.csv")
