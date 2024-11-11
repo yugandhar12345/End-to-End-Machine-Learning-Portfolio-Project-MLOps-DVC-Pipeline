@@ -2,7 +2,7 @@ mlops_project
 ==============================
 
 water potability prediction using ML
-
+[!Alt text](https://github.com/DataThinkers/End-to-End-Machine-Learning-Portfolio-Project-MLOps-DVC-Pipeline/blob/master/Untitled-2024-08-23-0858.png)
 Project Organization
 ------------
 
