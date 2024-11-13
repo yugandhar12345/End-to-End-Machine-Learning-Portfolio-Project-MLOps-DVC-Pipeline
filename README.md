@@ -66,11 +66,6 @@ This project follows a structured workflow to streamline the MLOps process:
 
 ---
 
-## 📜 License
-This project is licensed under the MIT License. See `LICENSE` for details.
-
----
-
 Happy Coding! 💻
 
 ========================================================================================
