@@ -1,3 +1,57 @@
+🌊 Water Potability Prediction with MLOps
+Welcome! This project demonstrates an end-to-end MLOps workflow to predict water potability using machine learning. We use tools like MLflow for tracking, DVC for versioning, and Tkinter for creating a desktop application.
+
+📈 Project Overview
+Objective: Predict water potability based on water quality metrics.
+Goal: Build an MLOps pipeline that tracks experiments, versions data and models, and deploys a desktop app for easy predictions.
+🔄 Project Workflow
+Experiment Setup: Use a pre-configured Cookiecutter template and initialize Git for version control.
+MLflow Tracking: Log experiments and model metrics on DagsHub using MLflow.
+DVC Pipeline: Set up data versioning with DVC and build a robust ML pipeline.
+Model Registration: Register the best model in MLflow’s registry for easy deployment.
+Desktop Application: Create a Tkinter app that fetches the latest model from MLflow and performs predictions.
+
+📂 Project Structure
+This project follows a structured workflow to streamline the MLOps process:
+
+Setup
+Install project structure with Cookiecutter.
+Initialize Git and push to GitHub.
+Experiment Tracking
+DagsHub + MLflow:
+Log experiments on DagsHub.
+Track model metrics, parameters, and artifacts.
+Experiment Execution:
+Experiment 1: Baseline model with Random Forest.
+Experiment 2: Multiple models (e.g., Logistic Regression, XGBoost).
+Experiment 3: Test mean vs. median imputation for missing values.
+Experiment 4: Hyperparameter tuning on Random Forest.
+DVC Pipeline
+Data Versioning:
+Set up DVC for versioning data on a local disk (or cloud if preferred).
+Pipeline Stages:
+Data Collection: Gather and structure data.
+Data Preprocessing: Handle missing values (mean imputation).
+Model Building: Train a Random Forest model.
+Model Evaluation: Track performance metrics with MLflow.
+Model Registration
+MLflow Registry:
+Register the best model with optimal parameters and metadata.
+Deploy the model using FastAPI or Streamlit for predictions.
+Tkinter Desktop Application 🖥️
+Tkinter App:
+A simple, user-friendly desktop app built with Tkinter.
+Automatically fetches the latest model from the MLflow model registry.
+Allows users to input data and receive potability predictions.
+🚀 Getting Started
+Prerequisites
+Python 3.8+
+Git
+DVC
+MLflow
+DagsHub account
+
+
 End To End Machine Learning Project (MLOps) :- Water Potability Prediction Using ML
 ========================================================================================
 ![Alt text](https://github.com/DataThinkers/End-to-End-Machine-Learning-Portfolio-Project-MLOps-DVC-Pipeline/blob/master/project.png)
