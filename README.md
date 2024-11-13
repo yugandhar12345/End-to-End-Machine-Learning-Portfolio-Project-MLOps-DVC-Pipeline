@@ -68,7 +68,7 @@ This project follows a structured workflow to streamline the MLOps process:
 
 Happy Coding! 💻
 
-[Watch the Video](https://youtu.be/ubnbC5ZkykY)
+### [Watch the Video](https://youtu.be/ubnbC5ZkykY)
 
 ========================================================================================
 ![Alt text](https://github.com/DataThinkers/End-to-End-Machine-Learning-Portfolio-Project-MLOps-DVC-Pipeline/blob/master/project.png)
