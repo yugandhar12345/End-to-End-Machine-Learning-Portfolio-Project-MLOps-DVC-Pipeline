@@ -1,6 +1,6 @@
 End To End Machine Learning Project (MLOps) :- Water Potability Prediction Using ML
 ========================================================================================
-
+![Alt text](https://github.com/DataThinkers/End-to-End-Machine-Learning-Portfolio-Project-MLOps-DVC-Pipeline/blob/master/project.png)
 ![Alt text](https://github.com/DataThinkers/End-to-End-Machine-Learning-Portfolio-Project-MLOps-DVC-Pipeline/blob/master/Untitled-2024-08-23-0858.png)
 Project Organization
 ------------
