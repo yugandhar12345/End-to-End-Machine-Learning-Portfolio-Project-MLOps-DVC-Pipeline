@@ -1,0 +1,22 @@
+name : ci pipeline
+
+on : push
+ job:
+ project_testing:
+   steps:
+   - name: promote model to production
+     run:  python scripts/production.py
+   - name: log in to Dockerhub
+     uses: docker/login-action@v2
+     with:
+       username: ${{secerts.DOCKER_USERNAME}}
+       password: ${{secerts.DOCKER_TOKEN}}
+   - name: Build Docker image
+     if: ${{sucess()}}
+     run: |
+      docker build -t 123456789101234/water-potability-predicator:latest
+   - name: push docker image
+     if: ${{sucess()}}
+     run: |
+       docker push 123456789101234/water-potabiility-predicator:latest
+       
